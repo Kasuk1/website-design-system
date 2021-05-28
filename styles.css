@@ -1,0 +1,317 @@
+/*----------------------------General Styles------------------------------------*/
+body {
+    margin: 0;
+    padding: 0 200px;
+    background-color: #F2F4F7;
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-Family: 'Ovo', Serif;
+    margin: 0;
+}
+
+p {
+    font-Family: 'Quattrocento Sans', Sans-Serif;
+}
+
+header,
+section {
+    width: 100%;
+    height: 75vh;
+    position: relative;
+    padding-top: 150px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 92px;
+    color: #25313C;
+}
+
+
+h2 {
+    font-size: 62px;
+    color: #4F4F4F;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+h3 {
+    font-size: 42px;
+    color: #828282;
+    font-weight: 400;
+}
+
+a {
+    font-size: 50px;
+    text-decoration: none;
+    color: #6D7D8B;
+    position: absolute;
+    bottom: 50vh;
+    right: -150px;
+}
+
+/*----------------------------Colors Section----------------------------*/
+.version2 {
+    margin-top: 60px;
+}
+
+.version1,
+.version2 {
+    border-right: 2px solid #BDBDBD;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.version1::after {
+    position: absolute;
+    font-size: 14px;
+    content: "Version 1";
+    transform: rotate(-6.24deg);
+    color: #828282;
+    top: 0;
+    right: -70px;
+}
+
+.version2::after {
+    position: absolute;
+    font-size: 14px;
+    content: "Version 2";
+    transform: rotate(-6.24deg);
+    color: #828282;
+    top: 0;
+    right: -70px;
+}
+
+.version1 div,
+.version2 div {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    border-radius: 15px;
+    margin: 0 10px 10px 0;
+    box-shadow: #4F4F4F 0.5px 0.5px;
+}
+
+/*Colors Version 1*/
+.full-black {
+    background-color: #000000;
+}
+
+.gray1 {
+    background-color: #333333;
+}
+
+.gray2 {
+    background-color: #4F4F4F;
+}
+
+.gray3 {
+    background-color: #828282;
+}
+
+.gray4 {
+    background-color: #BDBDBD;
+}
+
+.gray5 {
+    background-color: #F2F2F2;
+}
+
+.red {
+    background-color: #EB5757;
+}
+
+.orange {
+    background-color: #F2994A;
+}
+
+.yellow {
+    background-color: #F2C94C;
+}
+
+.green1 {
+    background-color: #219653;
+}
+
+.green2 {
+    background-color: #27AE60;
+}
+
+.green3 {
+    background-color: #6FCF97;
+}
+
+.blue1 {
+    background-color: #2F80ED;
+}
+
+.blue2 {
+    background-color: #2D9CDB;
+}
+
+.blue3 {
+    background-color: #56CCF2;
+}
+
+.blue4 {
+    background-color: #3DD6D6;
+}
+
+.purple1 {
+    background-color: #9B51E0;
+}
+
+.purple2 {
+    background-color: #D96BAD;
+}
+
+/*Colors Version 2*/
+.blackv2 {
+    background-color: #25313C;
+}
+
+.grayv2 {
+    background-color: #6D7D8B;
+}
+
+.lightgrayv2 {
+    background-color: #BBC8D4;
+}
+
+.ultralightgrayv2 {
+    background-color: #DAE3EA;
+}
+
+.standardgrayv2 {
+    background-color: #919294;
+}
+
+.whitev2 {
+    background-color: #FFFFFF;
+}
+
+.yellowv2 {
+    background-color: #FFBB00;
+}
+
+.pinkv2 {
+    background-color: #ED455D;
+}
+
+.purplev2 {
+    background-color: #5A4FF3;
+}
+
+.greenv2 {
+    background-color: #00C04D;
+}
+
+/*Fonts Section*/
+#fonts div {
+    position: relative;
+    margin: 50px 0;
+    border-right: 2px solid #BDBDBD;
+}
+
+#fonts div p {
+    height: 80px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+#font-style1 p {
+    font-family: 'Permanent Marker', cursive;
+}
+
+#font-style1::after {
+    position: absolute;
+    font-size: 14px;
+    content: "Permanent Marker";
+    transform: rotate(-6.24deg);
+    color: #828282;
+    top: 0;
+    right: -120px;
+}
+
+#font-style2 p {
+    font-family: 'Rufina', serif;
+}
+
+#font-style2::after {
+    position: absolute;
+    font-size: 14px;
+    content: "Rufina";
+    transform: rotate(-6.24deg);
+    color: #828282;
+    top: 0;
+    right: -50px;
+}
+
+#font-style3 p {
+    font-family: 'Varela Round', sans-serif;
+}
+
+#font-style3::after {
+    position: absolute;
+    font-size: 14px;
+    content: "Varela Round";
+    transform: rotate(-6.24deg);
+    color: #828282;
+    top: 0;
+    right: -90px;
+}
+
+/*Styles Section*/
+
+#heading1 h1,
+#heading2 h2,
+#heading3 h3 {
+    display: inline-block;
+    border-right: 2px solid #BDBDBD;
+    padding-right: 10px;
+    margin: 10px;
+}
+
+#heading1 h1::after {
+    position: absolute;
+    font-size: 14px;
+    content: "font-size: 92px; font-weight: 700;";
+    transform: rotate(-6.24deg);
+    color: #828282;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#heading2 h2::after {
+    position: absolute;
+    font-size: 14px;
+    content: "font-size: 72px; font-weight: 500;";
+    transform: rotate(-6.24deg);
+    color: #828282;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#heading3 h3::after {
+    position: absolute;
+    font-size: 14px;
+    content: "font-size: 42px; font-weight: 400;";
+    transform: rotate(-6.24deg);
+    color: #828282;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    color: #4F4F4F;
+}
